@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  header h1 {
+    margin: 1% 50% 1% 1%;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  nav ul {
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  
+  nav ul li {
+    display: inline;
+    padding-left: 20px ;
+  }
+  header nav ul :hover{
+    color: white;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+
+  /* responsive */
+  /* CSS untuk layar kecil */
+@media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 30px;
+    }
+  
+    form label, form input, form textarea {
+      width: 100%;
+    }
+  }
+  
+  /* CSS untuk layar medium hingga besar */
+  @media screen and (min-width: 601px) {
+    header {
+      padding: 20px;
+    }
+  
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+  
+    section {
+      padding: 50px;
+    }
+  
+    form label, form input, form textarea {
+      width: 50%;
+    }
+  }
+  

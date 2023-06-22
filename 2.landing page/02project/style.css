@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* style */
+body{
+    font: 16px/28px arial sans-serif;
+    color: #333;
+    width: 100%;
+    margin: auto;
+}
+
+.conteiner-utama{
+    background-color: rgb(134, 98, 98);
+}
+/* 1 */
+
+
+.conteiner-satu{
+    width: 100%px;
+    margin: auto;
+    background-color: rgb(44, 42, 42);
+    border-bottom: 4px solid rgb(134, 120, 72);
+}
+.header{
+    padding: 20px;
+    padding-bottom:  10px;
+}
+
+.header .judul{
+    width: 65%;
+    padding-left: 5%;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    color: rgb(255, 245, 245);
+}
+.conteiner-satu ul li {
+    display: inline-block;
+}
+
+.header  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1px 30px ;
+    font-size:26px ;
+    box-sizing: border-box;
+
+}
+.header a:hover{
+    width: 10px;
+    height: 10px;
+    color: rgb(255, 208, 142);
+    background-color: rgb(65, 61, 58);
+    border-radius: 20px;
+}
+
+
+/* 2 */
+
+.conteiner-dua{
+    margin: 20px auto ;
+    padding: 20px;
+}
+
+.conteiner-dua img{
+    height: 300px;
+    float: left;
+    margin: 22px 90px;
+    border-radius: 50%; 
+}
+
+.teks{
+    color: rgb(0, 0, 0);
+    padding:4% 1% 2% 50%;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+
+
+/* 3 */
+
+.conteiner-tiga{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.kotak{
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 3px solid rgba(27, 20, 20, 0.658);
+    background-color: rgb(247, 231, 231);
+}
+.conteiner-tiga .kotak h4{
+    font-size: 30px;
+    padding: 7px 0 10px 10px;
+}
+.kotak p, h4{
+    color: black;
+}
+/* .kotak.satu{background-color: white;}
+.kotak.dua{background-color: white;}
+.kotak.tiga{background-color: white;} */
+
+
+
+/* 4 */
+
+
+.akhir{
+    margin: 50px auto;
+    margin-bottom: 0px;
+    background-color: black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.akhir .footer{
+    color: rgb(255, 245, 245);
+    text-align: center;
+}
+
